@@ -1,0 +1,49 @@
+.ads {
+  height: 750px;
+  border-radius: 30px;
+  background-color: #29d7ff;
+}
+.portal-text {
+  padding-top: 30px;
+  font-size: 20px;
+  color: #fff;
+  letter-spacing: 1px;
+}
+.portal-img {
+  margin-top: 225px;
+}
+.buttom-text {
+  font-size: 20px;
+  color: #fff;
+  letter-spacing: 1px;
+  margin-top: 250px;
+}
+.portal-info {
+  height: 750px;
+  border-radius: 30px;
+  background-color: #272727;
+}
+.portal-info-title {
+  border-bottom: 3px solid #424242;
+}
+.portal-buttons {
+  height: 520px;
+  border-radius: 30px;
+  background-color: #272727;
+}
+.mode {
+  height: 80px;
+  border-radius: 30px;
+  background-color: #272727;
+}
+.icon-size {
+  font-size: 23px;
+}
+.btn-icon {
+  font-size: 14px;
+  background-color: #272727;
+  color: #fff;
+}
+.btn-icon:hover {
+  color: #ffe000;
+}
