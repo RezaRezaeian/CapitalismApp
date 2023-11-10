@@ -1,0 +1,13 @@
+.container {
+  margin-top: 200px;
+}
+.input {
+  outline: none;
+  padding: 4px 10px;
+  border-radius: 12px;
+}
+.forget-pass {
+  font-size: 12px;
+  text-decoration: none;
+  color: #29d7ff;
+}
