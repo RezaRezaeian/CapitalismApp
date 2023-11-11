@@ -1,0 +1,13 @@
+.img-fluid{
+    width: 80%;
+}
+.col{
+    position: relative;
+}
+.hmd{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    left: 100px;
+}
