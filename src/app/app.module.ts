@@ -6,13 +6,17 @@ import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
 import { StartComponent } from './start/start.component';
 import { ImageComponent } from './image/image.component';
+import { MapComponent } from './map/map.component';
+import { ListTableComponent } from './list-table/list-table.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
     StartComponent,
-    ImageComponent
+    ImageComponent,
+    MapComponent,
+    ListTableComponent
   ],
   imports: [
     BrowserModule,
