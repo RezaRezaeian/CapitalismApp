@@ -9,6 +9,7 @@ import { ImageComponent } from './image/image.component';
 import { MapComponent } from './map/map.component';
 import { ListTableComponent } from './list-table/list-table.component';
 import { CapacityComponent } from './capacity/capacity.component';
+import { InvestmentOpportunitiesComponent } from './investment-opportunities/investment-opportunities.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { CapacityComponent } from './capacity/capacity.component';
     ImageComponent,
     MapComponent,
     ListTableComponent,
-    CapacityComponent
+    CapacityComponent,
+    InvestmentOpportunitiesComponent
   ],
   imports: [
     BrowserModule,
