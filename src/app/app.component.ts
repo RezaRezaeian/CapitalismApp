@@ -9,6 +9,6 @@ export class AppComponent {
   title = 'CapitalismApp';
 
   salam() {
-    console.log('dsfas');
+    console.log('salam');
   }
 }
