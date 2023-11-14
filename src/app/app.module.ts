@@ -8,6 +8,7 @@ import { StartComponent } from './start/start.component';
 import { ImageComponent } from './image/image.component';
 import { MapComponent } from './map/map.component';
 import { ListTableComponent } from './list-table/list-table.component';
+import { CapacityComponent } from './capacity/capacity.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { ListTableComponent } from './list-table/list-table.component';
     StartComponent,
     ImageComponent,
     MapComponent,
-    ListTableComponent
+    ListTableComponent,
+    CapacityComponent
   ],
   imports: [
     BrowserModule,
