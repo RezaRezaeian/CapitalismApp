@@ -7,17 +7,35 @@
         </button>
       </div>
       <div class="portal-buttons align-self-start">
-        <button class="btn btn-icon mt-3">
+        <button
+          class="btn btn-icon mt-3"
+          (click)="openComponent('StartComponent')"
+        >
           <i class="bi bi-house-fill icon-size"></i> <br />خانه</button
-        ><button class="btn btn-icon mt-3" (click)="addComponent()">
+        ><button
+          class="btn btn-icon mt-3"
+          (click)="openComponent('LoginComponent')"
+        >
           <i class="bi bi-person-plus-fill icon-size"></i><br />ثبت نام</button
-        ><button class="btn btn-icon mt-3">
+        ><button
+          class="btn btn-icon mt-3"
+          (click)="openComponent('ImageComponent')"
+        >
           <i class="bi bi-camera-fill icon-size"></i><br />گالری تصاویر</button
-        ><button class="btn btn-icon mt-3">
+        ><button
+          class="btn btn-icon mt-3"
+          (click)="openComponent('InvestmentOpportunitiesComponent')"
+        >
           <i class="bi bi-filter-square-fill icon-size"></i><br />فرصت ها</button
-        ><button class="btn btn-icon mt-3">
+        ><button
+          class="btn btn-icon mt-3"
+          (click)="openComponent('componentA')"
+        >
           <i class="bi bi-pencil-fill icon-size"></i><br />پیشنهادات</button
-        ><button class="btn btn-icon mt-3">
+        ><button
+          class="btn btn-icon mt-3"
+          (click)="openComponent('componentA')"
+        >
           <i class="bi bi-send-fill icon-size"></i><br />تماس با ما
         </button>
       </div>
@@ -43,7 +61,7 @@
         <h6 class="portal-info-title portal-text pb-4">
           لیست صنایع اشباع استان همدان
         </h6>
-        <div #dynamicComponentContainer></div>
+        <ng-container #dynamicComponentContainer></ng-container>
       </div>
     </div>
   </div>
