@@ -49,50 +49,18 @@ export class AppComponent {
     private componentFactoryResolver: ComponentFactoryResolver
   ) {}
 
-  // addComponent() {
-  //   const componentFactory =
-  //     this.componentFactoryResolver.resolveComponentFactory(LoginComponent);
-  //   const componentRef =
-  //     this.dynamicComponentContainer.createComponent(componentFactory);
-  // }
-
-  // replaceComponent() {
-  //   // Destroy the existing component
-  //   if (this.componentRef) {
-  //     this.componentRef.destroy();
-  //   }
-
-  //   // Resolve the factory for the new component
-  //   const componentFactory =
-  //     this.componentFactoryResolver.resolveComponentFactory(ListTableComponent);
-
-  //   // Create the new component
-  //   this.componentRef =
-  //     this.dynamicComponentContainer.createComponent(componentFactory);
-  // }
-
-  // ngOnDestroy(): void {
-  //   // Destroy the component reference when the component is destroyed
-  //   if (this.componentRef) {
-  //     this.componentRef.destroy();
-  //   }
-  // }
-
   openComponent(componentKey: string) {
     console.log(componentKey);
 
-    // Destroy the existing component
     if (this.componentRef) {
       this.componentRef.destroy();
     }
 
-    // Resolve the factory for the selected component
     const componentFactory =
       this.componentFactoryResolver.resolveComponentFactory(
         this.componentMap[componentKey]
       );
 
-    // Create the new component
     this.componentRef =
       this.dynamicComponentContainer.createComponent(componentFactory);
   }
