@@ -10,6 +10,7 @@ import { MapComponent } from './map/map.component';
 import { ListTableComponent } from './list-table/list-table.component';
 import { CapacityComponent } from './capacity/capacity.component';
 import { InvestmentOpportunitiesComponent } from './investment-opportunities/investment-opportunities.component';
+import { ContactUsComponent } from './contact-us/contact-us.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { InvestmentOpportunitiesComponent } from './investment-opportunities/inv
     MapComponent,
     ListTableComponent,
     CapacityComponent,
-    InvestmentOpportunitiesComponent
+    InvestmentOpportunitiesComponent,
+    ContactUsComponent
   ],
   imports: [
     BrowserModule,
