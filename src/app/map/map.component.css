@@ -1,13 +1,17 @@
-.img-fluid{
-    width: 80%;
+.img-fluid {
+  width: 80%;
 }
-.col{
-    position: relative;
+.col {
+  margin-top: 60px;
+  position: relative;
 }
-.hmd{
-    position: absolute;
-    width: 50px;
-    height: 50px;
-    background-color: #fff;
-    left: 100px;
+.hmd {
+  cursor: pointer;
+  border-radius: 50%;
+  position: absolute;
+  width: 188px;
+  height: 130px;
+  /* background-color: rgba(255, 255, 255, 0.5); */
+  left: 265px;
+  top: 245px;
 }
