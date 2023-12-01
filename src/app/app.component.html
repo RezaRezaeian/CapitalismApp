@@ -8,31 +8,43 @@
       </div>
       <div class="portal-buttons align-self-start">
         <button
+          routerLink="/StartComponent"
+          routerLinkActive="active"
           class="btn btn-icon mt-3"
           (click)="openComponent('StartComponent')"
         >
           <i class="bi bi-house-fill icon-size"></i> <br />خانه</button
         ><button
+          routerLink="/LoginComponent"
+          routerLinkActive="active"
           class="btn btn-icon mt-3"
           (click)="openComponent('LoginComponent')"
         >
           <i class="bi bi-person-plus-fill icon-size"></i><br />ثبت نام</button
         ><button
+          routerLink="/ImageComponent"
+          routerLinkActive="active"
           class="btn btn-icon mt-3"
           (click)="openComponent('ImageComponent')"
         >
           <i class="bi bi-camera-fill icon-size"></i><br />گالری تصاویر</button
         ><button
+          routerLink="/InvestmentOpportunitiesComponent"
+          routerLinkActive="active"
           class="btn btn-icon mt-3"
           (click)="openComponent('InvestmentOpportunitiesComponent')"
         >
           <i class="bi bi-filter-square-fill icon-size"></i><br />فرصت ها</button
         ><button
+          routerLink="/componentA"
+          routerLinkActive="active"
           class="btn btn-icon mt-3"
           (click)="openComponent('componentA')"
         >
           <i class="bi bi-pencil-fill icon-size"></i><br />پیشنهادات</button
         ><button
+          routerLink="/ContactUsComponent"
+          routerLinkActive="active"
           class="btn btn-icon mt-3"
           (click)="openComponent('ContactUsComponent')"
         >
@@ -58,8 +70,7 @@
     </div>
     <div class="col-6">
       <div class="portal-info">
-        <ng-container #dynamicComponentContainer></ng-container>
-        <capitalism-map></capitalism-map>
+        <router-outlet></router-outlet>
       </div>
     </div>
   </div>
